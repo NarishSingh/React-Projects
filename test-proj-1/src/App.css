@@ -1,0 +1,48 @@
+.App {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 5vw;
+    border-bottom: 1px solid black;
+}
+
+header img {
+    height: 10vh;
+    width: 10vh;
+}
+
+.bgImage {
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://lh3.googleusercontent.com/proxy/5rm9NlkcFR-0Gh09kqXHZ64kkxKNouFJIwJ1dyrsM0ixbPIGLF2NGuLGRLI-aWkPIrL81c_pOu_CX_MM8gYo5NZtvbEwphxnO86ChRSA4iA6m9oXmbDEmlWOriMAN3qy1h0uRlBNHxkFICceZ1bJ2_wwqA");
+    background-size: cover;
+    background-position: center;
+}
+
+.bgImage h1 {
+    color: wheat;
+}
+
+.about{
+    width: 70%;
+    margin: 3vh auto;
+    border: 1px solid black;
+}
+
+.char-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.charCard{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30%;
+}
